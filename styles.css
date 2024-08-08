@@ -1,0 +1,46 @@
+/* static/css/styles.css */
+
+body {
+}
+
+.rating i {
+  color: #ccc; /* Default color for unfilled stars */
+}
+.rating .fas.fa-star,
+.rating .fas.fa-star-half-alt {
+  color: #ffc107; /* Yellow color for filled stars */
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: scale-down;
+}
+
+.img-fluid {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card {
+  min-height: 580px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
